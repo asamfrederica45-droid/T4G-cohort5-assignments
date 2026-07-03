@@ -46,3 +46,25 @@ Q12
 
 The ~ symbol represents the home directory of the current user in the terminal.
 The $ symbol shows that the terminal is ready to accept commands and it also shows that the user is a regular user
+CLIENT --> DNS --> FIREWALL --> LOAD BALANCER --> WEB SERVER --> APPLICATION SERVER --> DATABASE
+   |         |          |              |               |                |                 |
+   |         |          |              |               |                |                 |
+   v         v          v              v               v                v                 v
+
+Client: Sends a request from the browser (e.g. typing a website)
+DNS: Converts domain name into an IP address
+Firewall: Blocks unsafe or unauthorized traffic
+Load Balancer: Distributes requests across multiple servers
+Web Server: Receives request and forwards it to the application server
+Application Server: Processes logic and communicates with the database
+Database: Stores and retrieves required data
+
+DATABASE --> APPLICATION SERVER --> WEB SERVER --> LOAD BALANCER --> FIREWALL --> DNS --> CLIENT
+
+Database: Sends data back after retrieval
+Application Server: Processes and formats the response
+Web Server: Sends response back to network
+Load Balancer: Routes response correctly
+Firewall: Ensures response is safe
+DNS: Helps maintain routing connection
+Client: Displays final result in the browser
