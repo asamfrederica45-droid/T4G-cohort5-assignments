@@ -1,0 +1,48 @@
+Q1
+
+When you type a website address like google.com and press Enter, your browser first checks the DNS to find the IP address of the website. Then it sends a request to that server through the internet. The server processes the request and sends back the website data, which your browser displays as a webpage.
+
+
+Q2
+
+A client is a device or program that requests information, while a server is a system that provides information or services.
+
+* Client: My phone or web browser (Chrome)
+* Server: Google’s computer that sends search results
+
+
+Q3
+
+DNS (Domain Name System) is like the phonebook of the internet. It changes website names like google.com into IP addresses that computers understand. We need DNS because humans use names, but computers use numbers.
+
+
+Q4
+
+A firewall is a security system that blocks or allows traffic based on rules to protect a network from attacks. A load balancer distributes incoming traffic across multiple servers to prevent overload. The difference is that a firewall focuses on security, while a load balancer focuses on performance and traffic distribution.
+
+Q5
+A web server handles requests like serving web pages (HTML, CSS, images). An application server runs backend logic like processing data and connecting to databases. Backend developers work more with application servers because they handle business logic and data processing.
+
+Q6
+The client never communicates directly with the database for security and control reasons. An application server acts as a middle layer that validates requests, protects data, and controls how data is accessed. This improves security, scalability, and organization of the system.
+
+Q7
+A university department page is static because it shows fixed information like course details, and CGPAs ,while  an MTN MoMo account page is dynamic because it changes based on user data like balance and transactions.
+
+Q8
+Frontend development handles what users see, while backend development handles the logic, data, and server-side operations. The backend also handles authentications.
+
+Q9
+Backend developers need the command line because it allows them to interact directly with servers, manage files, install tools, and run programs efficiently without the use of a graphical interface.
+
+Q10
+An absolute path shows the full location of a file starting from the root directory. Example: /home/user/documents/file.txt
+A relative path shows the location based on your current directory. Example: ./documents/file.txt
+
+Q11
+ File Explorer is easier for small tasks, the CLI is faster, more powerful, and used in real software development and servers, also many backend systems do not have a graphical interface, so knowing CLI is very important.
+
+Q12
+
+The ~ symbol represents the home directory of the current user in the terminal.
+The $ symbol shows that the terminal is ready to accept commands and it also shows that the user is a regular user
